@@ -1,0 +1,108 @@
+/* Main body */
+body {
+    background-color: white;
+    color: black;
+    margin: 0; /* Ensure no margin around the body */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Main container */
+  .add-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px; /* Full viewport height */
+    width: 500px;
+    background-color: #f4f4f9; /* Light gray background */
+    border-radius: 12px;
+    padding: 20px;
+    margin: 0 auto; /* Center the form horizontally */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Light shadow */
+    box-sizing: border-box;
+  }
+  
+  /* Form title */
+  .form-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Form styling */
+  .add-item-form {
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box; /* Include padding in width */
+  }
+  
+  /* Form group */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%; /* Full width */
+  }
+  
+  /* Form group label */
+  .form-group label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+  
+  /* Input and textarea styling */
+  .form-group input,
+  .form-group textarea {
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f9f9f9; /* Slightly off-white input background */
+    color: black;
+  }
+  
+  /* Focus effect */
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Highlight on focus */
+  }
+  
+  /* Button styling */
+  .submit-button {
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  /* Button hover effect */
+  .submit-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px); /* Slight lift effect */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .add-item-form {
+      padding: 20px;
+      max-width: 90%; /* Make form adapt to smaller screens */
+    }
+  }
+  

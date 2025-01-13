@@ -1,0 +1,77 @@
+/* Container for the items list */
+.items-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f4f4f9; /* Light background */
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styling */
+  .items-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Table styling */
+  .items-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    table-layout: fixed; /* Ensures all columns are evenly spaced */
+  }
+  
+  /* Table headers styling */
+  .items-table thead {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .items-table th {
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Table rows styling */
+  .items-table tbody tr {
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .items-table tbody tr:hover {
+    background-color: #f1f1f1; /* Highlight on hover */
+  }
+  
+  /* Table cells styling */
+  .items-table td {
+    padding: 12px;
+    font-size: 14px;
+    color: #555;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .items-table th, .items-table td {
+      padding: 8px;
+    }
+  
+    .items-title {
+      font-size: 24px;
+    }
+  
+    .items-container {
+      width: 95%;
+    }
+  }
+  
