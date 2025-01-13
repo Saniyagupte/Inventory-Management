@@ -11,25 +11,20 @@ An Inventory Management System built using React (frontend) and Node.js (backend
 - **Frontend**: React.js
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB (for storing product data)
-  
-## Installation
 
-Follow these steps to get the project up and running on your local machine.
-
-Backend Setup
+#Backend Setup
 Clone the repository:
 Navigate to the backend directory:
 Configure the MongoDB database connection
 Run the Spring Boot application 
 
-
 #Frontend Setup
-Navigate to the frontend directory:
-Install dependencies:npm install
-Start the React development server
+-Navigate to the frontend directory:
+-Install dependencies:npm install
+-Start the React development server
 
-Contact
-For any queries or support, please contact:
+#Contact
+-For any queries or support, please contact:
 
-Project Maintainer: Saniya Gupte
-Email: saniyamilindgupte@gmail.com
+-Project Owner: Saniya Gupte
+-Email: saniyamilindgupte@gmail.com
