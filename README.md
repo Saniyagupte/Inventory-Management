@@ -20,7 +20,7 @@ Follow these steps to get the project up and running on your local machine.
 First, clone the repository to your local machine:
 
 git clone https://github.com/Saniyagupte/Inventory-Management.git
-cd Inventory-Management
+- cd Inventory-Management
 
 ### 2. Install Frontend & Backend Dependencies
 
