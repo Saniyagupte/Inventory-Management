@@ -16,26 +16,20 @@ An Inventory Management System built using React (frontend) and Node.js (backend
 
 Follow these steps to get the project up and running on your local machine.
 
-### 1. Clone the Repository
-First, clone the repository to your local machine:
+Backend Setup
+Clone the repository:
+Navigate to the backend directory:
+Configure the MongoDB database connection
+Run the Spring Boot application 
 
-git clone https://github.com/Saniyagupte/Inventory-Management.git
-- cd Inventory-Management
 
-### 2. Install Frontend & Backend Dependencies
+#Frontend Setup
+Navigate to the frontend directory:
+Install dependencies:npm install
+Start the React development server
 
-cd server
-npm install
+Contact
+For any queries or support, please contact:
 
-### 3. Install Frontend Dependencies
-
-cd frontend
-npm install
-
-### 4. Start Backend Server 
-
-npm start
-
-### 5. Start Frontend Server 
-
-npm run dev
+Project Maintainer: Saniya Gupte
+Email: saniyamilindgupte@gmail.com
