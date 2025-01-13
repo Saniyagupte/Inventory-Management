@@ -23,7 +23,7 @@ Frontend Setup
 -Install dependencies:npm install
 -Start the React development server
 
-##Contact
+## Contact
 -For any queries or support, please contact:
 
 -Project Owner: Saniya Gupte
