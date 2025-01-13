@@ -24,7 +24,7 @@ Frontend Setup
 -Start the React development server
 
 ## Contact
--For any queries or support, please contact:
+For any queries or support, please contact:
 
 -  **Project Owner**: Saniya Gupte
 -  **Email ** : saniyamilindgupte@gmail.com
