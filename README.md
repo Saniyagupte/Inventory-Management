@@ -26,5 +26,5 @@ Frontend Setup
 ## Contact
 -For any queries or support, please contact:
 
--Project Owner: Saniya Gupte
--Email: saniyamilindgupte@gmail.com
+-  **Project Owner**: Saniya Gupte
+-  **Email ** : saniyamilindgupte@gmail.com
